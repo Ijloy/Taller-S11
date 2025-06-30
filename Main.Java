@@ -10,14 +10,14 @@ public class Main {
 
         System.out.println();
 
-        Zombi zombi = new Zombi("Zombi1", 50, 7);
+        Zombi zombi = new Zombi("Zombi1", 50, 3);
         zombi.aparecer();
         zombi.interactuar();
         System.out.println("Tipo: " + zombi.obtenerTipo());
 
         System.out.println();
 
-        Aldeano aldeano = new Aldeano("Juan", 60, "Herrero");
+        Aldeano aldeano = new Aldeano("Juan", 50, "Herrero");
         aldeano.aparecer();
         aldeano.interactuar();
         System.out.println("Tipo: " + aldeano.obtenerTipo());
